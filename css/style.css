@@ -66,9 +66,14 @@ a{
 .main .logo{
 
 }
-
+.menus{
+    position: relative;
+}
 .menus ul{
     display: flex;
+}
+.menus ul li{
+    
 }
 
 .menus ul li a{
@@ -91,8 +96,8 @@ a{
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 15%;
-    right: 15%;
+    top: 40px;
+    right: 0;
     z-index: 9999;
 }
 .search-box{
