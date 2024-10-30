@@ -58,7 +58,7 @@ a{
 }
 .main{
     display: flex;
-    padding: 21px 0px 23px 0px;
+    /* padding: 21px 0px 23px 0px; */
     justify-content: space-between;
     align-items: center;
 }
@@ -68,21 +68,27 @@ a{
 }
 .menus{
     position: relative;
-}
+    height: 90px;
+    line-height: 90px;
+  }
 .menus ul{
     display: flex;
 }
 .menus ul li{
-    
+
 }
 
 .menus ul li a{
     color: #555555;
+    padding: 33px 21px 35px 21px;
     text-transform: uppercase;
     font-family: "open sans", sans-serif;
     font-weight: 700;
     padding-left: 50px ;
     transition: .4s;
+}
+#search-bar a{
+  padding: 0px 0px 0px 30px;
 }
 
 .menus ul li a:hover{
@@ -95,8 +101,11 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-box-shadow: 0px -10px 15px -24px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -10px 15px -24px rgba(0,0,0,0.75);
+box-shadow: 0px -10px 15px -24px rgba(0,0,0,0.75);
     position: absolute;
-    top: 40px;
+    top: 90px;
     right: 0;
     z-index: 9999;
 }
@@ -129,7 +138,7 @@ a{
     background-repeat: no-repeat;
     background-position: center;
 
-   
+
 }
 
 .overlay{
@@ -209,7 +218,7 @@ a{
 /* Hero section end */
 
 /* Our goal section start */
-  #our-goal{ 
+  #our-goal{
     height: 463px;
     width: 100%;
   }
@@ -218,7 +227,7 @@ a{
     position: relative;
     width: 1320px;
 }
- 
+
   .our-goal-content{
     position: absolute;
     color: #5A5A5A;
@@ -234,7 +243,7 @@ box-shadow: 0px 0px 16px -9px rgba(0,0,0,0.75);
   }
   .our-goal-content h2, h3{
     font-family: "roboto slab", sans-serif;
-    
+
   }
   .our-goal-content p{
     font-family: "open sans", sans-serif;
@@ -251,12 +260,12 @@ box-shadow: 0px 0px 16px -9px rgba(0,0,0,0.75);
   .our-goal-text p{
     font-size: 18px;
   }
- 
+
   .our-goal-text img{
     height: 27px;
     width: 41px;
     margin: 10px 24px 20px;
-  
+
   }
 
   .our-goal-text .img-section{
@@ -322,7 +331,7 @@ box-shadow: 0px 0px 16px -9px rgba(0,0,0,0.75);
  }
 .latest-causes-content{
     padding: 120px 90px;
-    
+
     /* background-color: red ; */
 }
 
