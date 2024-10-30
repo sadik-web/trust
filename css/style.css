@@ -136,7 +136,7 @@ a{
     /* position: absolute; */
     position: relative;
     background  : rgba(0, 0, 0, 0.5);
-    height: 85vh;
+    height: 90vh;
 }
 
 .hero-content{
@@ -207,3 +207,119 @@ a{
 }
 
 /* Hero section end */
+
+/* Our goal section start */
+  #our-goal{ 
+    height: 463px;
+    width: 100%;
+  }
+  .ourgoal{}
+.our-goal-section{
+    position: relative;
+    width: 1320px;
+}
+ 
+  .our-goal-content{
+    position: absolute;
+    color: #5A5A5A;
+    padding: 120px 0px 120px 0px;
+    width: 100%;
+    background-color: #ffff;
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+    top: -120px;
+    left: 0;
+    z-index: 9999;
+  }
+  .our-goal-content h2, h3{
+    font-family: "roboto slab", sans-serif;
+    
+  }
+  .our-goal-content p{
+    font-family: "open sans", sans-serif;
+  }
+
+  .our-goal-content .our-goal-text{
+    text-align: center;
+    margin-bottom: 75px;
+    /* line-height: 42px; */
+  }
+  .our-goal-content h2  {
+    font-size: 36px;
+  }
+  .our-goal-text p{
+    font-size: 18px;
+  }
+ 
+  .our-goal-text img{
+    height: 27px;
+    width: 41px;
+    margin: 10px 24px 20px;
+  
+  }
+
+  .our-goal-text .img-section{
+    position: relative;
+    display: inline-block;
+  }
+
+  .our-goal-text .img-section::before{
+    position: absolute;
+    height: 1px;
+    width: 135px ;
+    background-color: #5a5a5a44;
+    content: "";
+    top: 50%;
+    left: -140px;
+  }
+  .our-goal-text .img-section::after{
+    position: absolute;
+    height: 1px;
+    width: 135px ;
+    background-color: #5a5a5a44;
+    content: "";
+    top: 50%;
+    right: -140px;
+  }
+
+  .our-goal-content .our-goal-services{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .our-goal-services h3{
+    margin: 24px 0px 16px 0px;
+    font-weight: 400;
+  }
+  .our-goal-services p{
+    font-size: 14px;
+  }
+  .our-goal-services i{
+    font-size: 36px;
+  }
+  .our-goal-services-section-one{
+    padding: 0px 54px;
+  }
+  .our-goal-services-section-two{
+    padding: 0px 54px;
+  }
+  .our-goal-services-section-two img{
+    height: 36px;
+  }
+  .our-goal-services-section-three{
+    padding: 0px 54px;
+  }
+/* Our goal section end */
+/* Latest causes section start */
+ #latest-causes{
+    height: 400px;
+    width: 100%;
+ }
+.latest-causes-content{
+    padding: 120px 90px;
+    
+    /* background-color: red ; */
+}
+
+/* Latest causes section end */
